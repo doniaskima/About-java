@@ -5,9 +5,9 @@ public class Livre {
     private int Prix;
     public static int count;
 
-    public  Livre(String T, String Act, int P) {
+    public  Livre(String T, String Auteur, int P) {
         this.Titre = T;
-        this.Auteur = Act;
+        this.Auteur = Auteur;
         this.Prix = P;
         this.id = ++count;
     }
