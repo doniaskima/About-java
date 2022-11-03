@@ -28,7 +28,8 @@ public class Etagere {
     
     public Livre getLivre(int index) {
         return (livres(index - 1));
-    
+
+    }
 
     public int chercher(String titre, String auteur) {
         for (int i = 0; i < livres.length(); i++) {
@@ -69,6 +70,15 @@ public class Etagere {
             return tab;
         }
     }
+
+    public Livre enleverLivre(int index) {
+        for (int i = index; i < livres.length; i++) {
+            livres[i - 1] = livres[i];
+            i--;
+        }
+        return livres;
+    }
+    
     
 
 
