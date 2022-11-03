@@ -54,6 +54,21 @@ public class Etagere {
         }
 
     }
+
+    public Livre[] tab(String titre, String auteur) {
+        int k = 0;
+        for (int i = 0; i < tab.length; i++) {
+            if (livres[i].chercher(titre, auteur) != 0) {
+                tab[k] = livres[i];
+                k++;
+            }
+        }
+        if (k == 0) {
+            return null;
+        } else {
+            return tab;
+        }
+    }
     
 
 
