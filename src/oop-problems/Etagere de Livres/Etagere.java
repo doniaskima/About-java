@@ -28,6 +28,15 @@ public class Etagere {
     
     public Livre getLivre(int index) {
         return (livres(index - 1));
+    
+
+    public int chercher(String titre, String auteur) {
+        for (int i = 0; i < livres.length(); i++) {
+            if (livres[i].titre == titre && livres[i].auteur == auteur) {
+                return i;
+            }
+        }
+        else return 0;
     }
     
 
