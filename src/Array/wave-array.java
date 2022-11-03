@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//https://www.interviewbit.com/problems/wave-array/
 public class wave-array {
     public int[] wave(int[] A) {
         Arrays.sort(A);
