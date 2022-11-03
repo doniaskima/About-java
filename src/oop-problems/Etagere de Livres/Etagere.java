@@ -16,7 +16,7 @@ public class Etagere {
         return nbr;
     }
 
-    public boolean ajouter(Livre L){
+    public boolean ajouter(Livre L) {
         if (nbr < livres.length) {
             livres[nbr] = L;
             nbr++;
@@ -25,6 +25,11 @@ public class Etagere {
         }
         return true;
     }
+    
+    public Livre getLivre(int index) {
+        return (livres(index - 1));
+    }
+    
 
 
 
