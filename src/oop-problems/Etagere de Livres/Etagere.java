@@ -79,9 +79,4 @@ public class Etagere {
         return livres;
     }
     
-    
-
-
-
-
 }
