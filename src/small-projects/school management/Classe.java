@@ -36,8 +36,18 @@ public class Classe {
     }
 
     public float getFraisInscription(float fraisInscription) {
-        
+        this.frequisInscription = frequisInscription;
     }
+
+    public String getNom() {
+        return nom;
+    }
+    
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    
 
 
 
