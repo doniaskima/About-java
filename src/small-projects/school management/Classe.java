@@ -74,17 +74,17 @@ public class Classe {
         }
     }
 
-    public ArrayList<Eleve> findlisteEleve(List<Classe> lis) {
-
+    public ArrayList<Eleve> findlisteEleve(List<Classe> listeClasse,int id) {
+        ArrayList<Eleve> nvListElev = new ArrayList<Eleve>();
+        for (int i = 0; i <= listeClasse.size(); i++) {
+            if (listeClasse.get(i).getId() == id) {
+                nvListElev=(listeClasse.get(i).getEleve())
+            }
+            return nvListElev;
+        }
+        return null;
     }
     //ArrayList create a dynamic array , The List creates a static array
     //So the List can not be expanded once it is created but using the ArrayList, we can expand the array when needed.
     
-
-
-
-
-
-
-
 }
