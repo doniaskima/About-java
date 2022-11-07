@@ -47,7 +47,21 @@ public class Classe {
         this.nom = nom;
     }
 
+    public ArrayList<Animateur> getAnimateurs() {
+        return animateurs;
+    }
+
+    public void setAnimateurs(ArrayList<Animateur> listeAnimateur) {
+        this.animateurs = listeAnimateur;
+    }
+
+    public ArrayList<Eleve> getEleve() {
+        return eleve;
+    }
+
     
+
+
 
 
 
