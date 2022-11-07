@@ -26,7 +26,19 @@ public class Classe {
         return "Classe " + nom + "\n [id=" + id + ",fraisInscription" + fraisInscription + "dinars"
                 + ",\n animateurs:\n" + animateurs + ", eleve=" + eleve + "]";
     }
-    
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public float getFraisInscription(float fraisInscription) {
+        
+    }
+
 
 
 }
