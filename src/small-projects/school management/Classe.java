@@ -73,6 +73,10 @@ public class Classe {
                 list.set(i, e);
         }
     }
+
+    public ArrayList<Eleve> findlisteEleve() {
+        
+    }
     
 
 
