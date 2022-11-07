@@ -74,9 +74,11 @@ public class Classe {
         }
     }
 
-    public ArrayList<Eleve> findlisteEleve() {
-        
+    public ArrayList<Eleve> findlisteEleve(List<Classe> lis) {
+
     }
+    //ArrayList create a dynamic array , The List creates a static array
+    //So the List can not be expanded once it is created but using the ArrayList, we can expand the array when needed.
     
 
 
