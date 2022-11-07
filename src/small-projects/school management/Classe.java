@@ -59,7 +59,23 @@ public class Classe {
         return eleve;
     }
 
+    public void setEleve(ArrayList<Eleve> eleve) {
+        this.eleve = eleve;
+    }
+
+    public String frais() {
+        return "class" + nom + "prix" + fraisInscription;
+    }
+
+    public void update(List<Classe> list, Classe e) {
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == e.id)
+                list.set(i, e);
+        }
+    }
     
+
+
 
 
 
