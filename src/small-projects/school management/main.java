@@ -6,8 +6,10 @@ public class main {
         ArrayList<Eleve> listEleve = new ArrayList<Eleve>();
         List<Parent> listParent = new ArrayList<Parent>();
         List<Adresse> listeAdress = new ArrayList<Adresse>();
-        List<Classe> listClasse = new ArrayList<Classe>();
-        ArrayList<Eleve> lEleveList = new ArrayList<Eleve>();
+        ArrayList<Animateur> listeAnimateur = new ArrayList<Animateur>();
+        List<Classe> listeClasse = new ArrayList<Classe>();
+     	ArrayList<Eleve> classlisteeleve= new ArrayList<Eleve>();
+     	ArrayList<Activite> Activiteliste= new ArrayList<Activite>();
         
 
     }
