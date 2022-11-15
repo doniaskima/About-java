@@ -176,6 +176,20 @@ public class main {
                     /************************ cin try catch***************************/
 
 
+                    Boolean b6=true;
+                    while(b6){
+                        try{
+                            System.out.println("ajouter cin pre de "+e.nom);
+                            p.setCin(Integer.parseInt(sc.nextInt()));
+                            break;
+                        }catch(Exception e){
+                            if(b6){
+                                System.out.println("cin pere doit etre entier")
+                            }
+                        }
+                    }
+
+
                     
                              
 
