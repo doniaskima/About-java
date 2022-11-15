@@ -110,6 +110,38 @@ public class main {
                      ad.setRue(sc.next());
                      System.out.println("ajouter la ville de eleve string");
                      ad.setVille(sc.next());
+
+                     Boolean b4=true;
+                     while(b4){
+                        try{
+                            System.out.println("ajouet le codePostal de eleve int");
+                            ad.setCodePostal(Integer.parseInt(sc.nextLine()));
+                            break; 
+                        }catch(Exeption err){
+                             if(b4){
+                                System.out.println("codePostal doit etre entier");
+                             }
+                        }
+                     }
+
+                    System.out.println("ajouter le gouvrnrzt de eleve string");
+                    ad.setGouvernorat(sc.next());
+                    e.setAdresse(ad);
+
+                    System.out.println("l annee de naissance de "+e.nom +"int");
+                    int y=sc.nextInt(); 
+                    System.out.println("le mois de naissance  de"+e.nom+" int");
+                    int moth= sc.nextInt();
+                    System.out.println("le jour de naissance  de"+e.nom+" int");
+                    int days = sc.nextInt();
+                    Calender calcr = Calendar.getInstance();
+                    calcr.set(Calendar.YEAR, y);
+                    calcr.set(Calendar.MONTH,month-1); // months start at 0
+                    calcr.set(Calendar.DAY_OF_MONTH,days); 
+                   	java.sql.Date datecre = new java.sql.Date(calcr.getTimeInMillis());
+            		sdf.format(datecre);
+
+
                      
 
             }
