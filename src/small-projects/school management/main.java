@@ -142,6 +142,45 @@ public class main {
             		sdf.format(datecre);
 
 
+
+                    e.setDateNaissance(datecre);
+                    System.out.println("niveauScolaire de "+e.nom+" string");
+                    e.setNiveauScolaire(sc.next());
+                    /**********pere********/
+                    Systeme.out.println("ajouter le nom de pere de "+e.nom+" string");
+                    p.setNom(sc.next());
+                    System.out.println("ajouter le prenom de pere de "+e.nom+" string");
+                    p.setPrenom(sc.next());
+                    
+
+                             /************************ NumeroTelephone try catch****************************/
+
+                             Boolean b5=true;
+                             while (b5) {
+                                 try {
+                                     System.out.println("ajouter NumeroTelephone de  pere de "+e.nom);
+                                     p.setNumeroTelephone(Integer.parseInt(sc.nextLine()));
+                                     break;
+                                  
+         
+                                 } catch (Exception err) {
+                                     if (b5) {
+                                         System.out.println("NumeroTelephonel doit etre entier");
+         
+                                     }
+                                 }
+                             }
+
+                             p.setAdresse(ad);
+
+                    /************************ cin try catch***************************/
+
+
+                    
+                             
+
+
+
                      
 
             }
