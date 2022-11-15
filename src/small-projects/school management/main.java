@@ -218,6 +218,26 @@ public class main {
                 }
 
 
+                java.sql.Date dateeper= new java.sql.Date(perdate.getTimeInMillis());
+                sdf.format(dateeper);
+                System.out.println(dateeper);
+                p.setDateNaissance(dateeper);
+                e.setPer(p);
+                System.out.println(e);
+                p.setDateNaissance(dateeper);
+                e.setPer(p);
+                System.out.println(e);
+                e.setPer(p);
+                e.setMer(m);
+                e.create(listEleve, e);
+                p.create(listParent, p);
+                m.create(listParent, m);
+
+
+                break;
+
+
+
                     
                              
 
