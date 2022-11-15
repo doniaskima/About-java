@@ -19,7 +19,8 @@ public class main {
         
         /******************************add animateur************************************/
 
-        simpleDateFormat sdf = new SimpleDateFormat("MM--dd-yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat(
+            "MM-dd-yyyy");
         Calendar animateur1date = Calendar.getInstance();
         animateur1date.set(Calendar.YEAR, 2001);
         animateur1date.set(Calendar.MONTH, 12 - 1);//months start at 0
@@ -30,13 +31,12 @@ public class main {
         Animateur animateur1 = new Animateur("Marwa", "Majdoub", 12345252, null, dateAnimateur1);
         Animateur animateur2 = new Animateur("Sirine", "Sarray", 12345252, null, dateAnimateur1);
         Animateur animateur3 = new Animateur("Jiji", "Skima", 12345252, null, dateAnimateur1);
-        Animateur animateu4 = new Animateur("Islem", "Skima", 12345252, null, dateAnimateur1);
-        Animateur animateur1 = new Animateur("Hanin", "Dhaou", 12345252, null, dateAnimateur1);
+        Animateur animateur4 = new Animateur("Islem", "Skima", 12345252, null, dateAnimateur1);
+        Animateur animateur5 = new Animateur("Hanin", "Dhaou", 12345252, null, dateAnimateur1);
+        listeAnimateur.add(animateur5);
         listeAnimateur.add(animateur4);
         listeAnimateur.add(animateur3);
         listeAnimateur.add(animateur2);
-        listeAnimateur.add(animateur1)
-
-
+        listeAnimateur.add(animateur1);
     }
 }
