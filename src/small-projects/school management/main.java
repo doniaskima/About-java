@@ -104,6 +104,14 @@ public class main {
 
 
                      /*******************************************************************************/
+
+
+                     System.out.print("ajouter le rue de eleve string");
+                     ad.setRue(sc.next());
+                     System.out.println("ajouter la ville de eleve string");
+                     ad.setVille(sc.next());
+                     
+
             }
         }
     }
