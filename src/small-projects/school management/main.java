@@ -38,5 +38,73 @@ public class main {
         listeAnimateur.add(animateur3);
         listeAnimateur.add(animateur2);
         listeAnimateur.add(animateur1);
+
+
+        while (isRunning) {
+            System.out.println("/***********************************************Menu**********************************************/");
+            System.out.println("                      1: ajouter un eleve \n                      2:liste des eleve \n                       3:liste des parent \n                      4:delete eleve \n                       5:mettre ajour l'eleve \n                       6:liste damateur                      7:create class                      8:liste de class                        9:frais d inscription(client)             10:modification le nom de la class etfrais d inscription     11:list dactivite            12:ajouter activite              13:exit       ");
+            System.out.println(
+                    "/***********************************************menu**********************************************/");
+               
+            Scanner sc = new Scanner(System.in);
+            int choise = sc.nextIn();
+
+            switch (choise) {
+                
+                case1:
+                    Parent p =new Parent();
+                    Parent m=new Parent();
+                    Eleve e=new Eleve();
+                    java.sql.Date date = new java.sql.Date(0,0,0);
+                    Adresse ad= new Adresse();
+                    System.out.println("ajouter le nom deleve");
+                    e.setNom(sc.next()); 
+                    System.out.println("ajouter le prenom de eleve");
+                    e.setPrenom(sc.next());
+                    Boolean b1=true; 
+                    while(b1){
+                        try{
+                            System.out.println("ajouter le Numero du Telephone de l'eleve");
+                            e.setNumeroTelephone(Integer.parseInt(sc.nextLine()));
+                            break;
+                        }catch(Exeption e){
+                            if(b1){
+                                System.out.println("Numero Telephone doit etre entier");     
+                            }
+                        }
+                    }
+                    Boolean b2=true;
+                    while(b2){
+                        try{
+                            System.out.println("l id de le eleve");
+                            e.setId(Integer.parseInt(sc.nextLine()));
+                            break;
+                        }catch(Exeption err){
+                            if(b2){
+                                System.out.println("id doit etre entier");
+  
+                            }
+                        }
+                    }
+                    System.out.println("id doit etre entier");
+                    Boolean b3=true;
+
+                    while(b3){
+                        try{
+                            System.out.println("ajouter le numeroRue de eleve int ");                       
+                            ad.setNumeroRue(Integer.parseInt(sc.nextLine()));
+                           break;
+                        }catch(Exception err){
+                            if (b3) {
+                                System.out.println("numeroRue doit etre entier");
+
+                            }
+                        }
+                    }
+
+
+                     /*******************************************************************************/
+            }
+        }
     }
 }
