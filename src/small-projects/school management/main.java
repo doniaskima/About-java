@@ -190,6 +190,34 @@ public class main {
                     }
 
 
+                Boolean b7=true;
+                while(b7){
+                    System.out.println("le jour de naissance  de pere"+p.nom+" int");
+                    int jj=Integer.parseInt(sc.nextLine());
+                    perdate.set(Calendar.DAY_OF_MONTH, jj);
+
+                    System.out.println("le moi de naissance  de"+p.nom+" int");
+                    int mm=Integer.parseInt(sc.nextLine());
+                    perdate.set(Calendar.MONTH, mm - 1);
+                    
+                    System.out.println("l' annee de naissance  de "+p.nom+" int");
+                    int anneep=Integer.parseInt(sc.nextLine());
+                    perdate.set(Calendar.YEAR, anneep);
+
+                    
+                  
+                    break;
+                 
+
+                } catch (Exception err) {
+                    if(b7){
+                        System.out.println("NumeroTelephonel doit etre entier");  
+                    }
+                }
+
+                }
+
+
                     
                              
 
