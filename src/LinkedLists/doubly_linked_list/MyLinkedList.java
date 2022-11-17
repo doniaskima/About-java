@@ -8,9 +8,23 @@ public class MyLinkedList {
         linkedList.printList();
         linkedList.prepend(18, "Donia");
 		linkedList.prepend(20, "Jihen");
-		linkedList.prepend(17, "Marwa");
+		linkedList.prepend(14, "Marwa");//sry not sry xD
         linkedList.prepend(19, "Islem");
         System.out.println(linkedList.getSize());
         linkedList.printList();
+
+        linkedList.append(19, "Hanin");
+        System.out.println(linkedList.getSize());
+        linkedList.printList();
+
+        linkedList.removeFromHead();
+		System.out.println(linkedList.getSize());
+        linkedList.printList();
+        
+
+        linkedList.removeFromTail();
+		System.out.println(linkedList.getSize());
+		linkedList.printList();
+
     }
 }

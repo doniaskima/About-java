@@ -51,6 +51,47 @@ public class StudentDoublyLinkedList {
     public int getSize() {
         return size;
     }
+    // remove  from Head 
+
+    public StudentNode removeFromHead() {
+        if (isEmpty()) {
+            return null;
+        }
+
+        StudentNode removedNode = head;
+
+        if (head.getNext() == null) {
+            tail = null;
+        } else {
+            head.getNext().setPrev(null);
+        }
+
+        head = head.getNext();
+        size--;
+        removedNode.setNext(null);
+        return removedNode;
+    }
+
+    public StudentNode removeFromTail() {
+        if (isEmpty()) {
+            return null;
+        }
+
+        StudentNode removedNode = head;
+
+        if (tail.getPrev() == null) {
+            head = null;
+        } else {
+            tail.getPrev().setNext(null);
+        }
+
+        tail = tail.getNext();
+        size--;
+        removedNode.setPrev(null);
+        return removedNode;
+
+    }
+	
 
 
 }
