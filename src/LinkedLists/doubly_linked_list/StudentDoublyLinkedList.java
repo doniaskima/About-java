@@ -1,5 +1,3 @@
-
-
 public class StudentDoublyLinkedList {
     private StudentNode head;
     private StudentNode tail;
