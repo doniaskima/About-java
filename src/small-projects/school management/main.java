@@ -236,6 +236,29 @@ public class main {
 
                 break;
 
+                case 2 :
+                System.out.println("liste d eleve ::\n " +lisEleve); 
+                break; 
+                case 3 :
+                System.out.println("list des parents : \n" +listParent);
+                break;
+
+                case 4:
+                   System.out.println("Saise le id de eleve por supprimer l'eleve");
+
+                   Eleve ed = new Eleve();
+                   ed.setId(sc.nextInt());
+                   if (ed.delete(listEleve,ed.id) ==1) {
+                    System.out.println("suppression avec succès");	
+                }else {
+                    System.out.println("verifier l'id de l'eleve que tu veux la supprimer");	
+
+                }
+            
+
+                break;
+
+
 
 
                     
