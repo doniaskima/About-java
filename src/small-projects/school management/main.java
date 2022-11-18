@@ -244,7 +244,7 @@ public class main {
                 break;
 
                 case 4:
-                   System.out.println("Saise le id de eleve por supprimer l'eleve");
+                   System.out.println("Saise le id de eleve pour supprimer l'eleve");
 
                    Eleve ed = new Eleve();
                    ed.setId(sc.nextInt());
