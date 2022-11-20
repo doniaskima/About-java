@@ -16,3 +16,5 @@ class Dog extends Animal {
         Dog.method(a);
     }
 }
+
+//Output:ok downcasting performed
