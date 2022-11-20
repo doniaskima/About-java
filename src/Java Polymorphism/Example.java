@@ -4,7 +4,7 @@ class Animal {
     public void animalSound() {
       System.out.println("The animal makes a sound");
     }
-  }
+}
   
   class Pig extends Animal {
     public void animalSound() {
@@ -27,4 +27,4 @@ class Animal {
       myPig.animalSound();
       myDog.animalSound();
     }
-  }
+}
