@@ -1,13 +1,13 @@
 
 
 public class Bibliotheque {
-    public int Capacité;
-    public static int Nb=0;
+    public int capacity;
+    public static int nbr=0;
     public Document[] doc;
-    public Bibliotheque(int Capacité) {
-        this.Capacité = Capacité;
-        doc=new Document[5];
-        Nb=0;
+    public Bibliotheque(int capacity) {
+        doc = new Document[5];
+        this.capacity = capacity;
+        nbr=0;
     }
     public void afficherDoc(){
         for(Document D:doc)                                                    
@@ -18,8 +18,8 @@ public class Bibliotheque {
     }
 
     public boolean ajouter(Document Doc){
-        if(Nb<doc.length)
-           this.doc[Nb++]=Doc;
+        if(nbr<doc.length)
+           this.doc[nbr++]=Doc;
         return true;
     }
     public boolean supprimer(Document Doc){
@@ -28,7 +28,7 @@ public class Bibliotheque {
               
                     doc[i]=doc[i+1];
         }
-        Nb--;
+        nbr--;
             return true;     }
     public void afficherAuteur(){
         for(int i=0;i<doc.length;i++){
