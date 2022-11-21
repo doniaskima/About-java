@@ -254,9 +254,30 @@ public class main {
                     System.out.println("verifier l'id de l'eleve que tu veux la supprimer");	
 
                 }
-            
-
                 break;
+
+                case 5:
+
+                Date fateup = new Date(); 
+                Adresse add = new Adresse();
+                Eleve eup=new Eleve();
+
+                System.out.println("l id de le eleve que tu veux le changer ");
+                int c= sc.nextInt();
+                eup.setId(c);
+                eup.findParente(listEleve,c);
+                String pnonup = eup.findParente(listEleve.c).getNom();
+                String pprenomup = eup.findParente(listEleve.c).getNom();
+                int ppcin=  eup.findParente(listEleve,c).getCin();
+                int ppnumte = eup.findParente(listEleve, c).getNumeroTelephone();
+                java.sql.Date ppdate=  eup.findParente(listEleve,c).getDateNaissance();
+                Adresse ppadress=eup.findParente(listEleve, c).getAdresse();
+                Parent pup=new Parent(pnonup,pprenomup,ppnumte,ppadress,ppdate,ppcin);
+
+                
+                eup.setPer(pup);
+                /***************************************************************/
+
 
 
 
