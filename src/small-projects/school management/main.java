@@ -276,7 +276,38 @@ public class main {
 
                 
                 eup.setPer(pup);
+
+
                 /***************************************************************/
+
+                System.out.println("ajouter le nom de elve");
+                eup.setNom(sc.nextLine());
+                System.out.println("ajouter le prenom de eleve");
+                eup.setPrenom(sc.nextLine());
+                System.out.println("ajouter le numero de eleve");
+                eup.setNumeroTelephone(sc.nextInt());
+                System.out.println("ajouter le rue de eleve string");
+                add.setNumeroRue(sc.nextInt());
+                System.out.println("ajouter la ville de eleve string");
+                aad.setVille(sc.nextLine());
+                System.out.println("ajouter la codePostal de eleve int ");
+                aad.setCodePostal(sc.nextInt());
+                System.out.println("ajouter la gouvernorat de eleve string");
+                aad.setGouvernorat(sc.nextLine());
+                eup.setAdresse(aad);
+                System.out.println("le jour de naissance  de"+eup.nom+" int");
+                dateup.setDate(sc.nextInt());
+                System.out.println("le moi de naissance  de"+eup.nom+" int");
+                dateup.setMonth(sc.nextInt());
+                System.out.println("l' annee de naissance  de "+eup.nom+" int");
+                dateup.setYear(sc.nextInt());
+                aad.create(listeAdress,aad);
+                System.out.println("niveauScolaire  de "+eup.nom+" string");
+                eup.setNiveauScolaire(sc.nextLine());
+                eup.update(listEleve, eup);
+                System.out.println(listEleve);
+
+             break;
 
 
 
