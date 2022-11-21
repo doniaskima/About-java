@@ -1,16 +1,25 @@
 
+public class Eleve extends Personne {
 
-public class Eleve extends Personne{
+	private String Classe;
+	
+	public Eleve (String C , String N ,String P , String A)
+	{
+		super(N,P,A);
+		Classe=C;
+	}
+	
+	public String toString()
+	{
+		return super.toString()+"Classe"+Classe;
+	}
+	public String getClasse()
+	{
+		return Classe ;
+	}
+	public void setClasse(String C)
+	{
+		Classe=C;
+	}
 
-    private String classe;
-
-
-    public Eleve(String nom, String prenom, String adresse, String classe) {
-        super(nom, prenom, adresse);
-        this.classe = classe;
-    }
-    
-    public String toString() {
-        return super.toString() +  " et classe :" + classe;
-    }
 }

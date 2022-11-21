@@ -9,7 +9,7 @@ public class TestDocuments {
         System.out.println("Donner le Titre du Document");
         // String title = sc.nextLine();
         Document doc = new Document(NE, title);
-        doc.toString();
+        System.out.println(doc.toString());
 
         //Livre 
         System.out.println("Donner le Nom du l'Auteur");
@@ -17,13 +17,13 @@ public class TestDocuments {
         System.out.println("Donner le nombre du pages");
         int nPages = sc.nextInt();
         Livre livre = new Livre(name, nPages, NE, title);
-        livre.toString();
+        System.out.println(livre.toString());
         
         //Roman 
         System.out.println("Donner le prix :");
         double p = sc.nextDouble();
         Roman roman = new Roman(p, NE, title, name, nPages);
-        roman.toString();
+        System.out.println(roman.toString());
 
         //Revue 
         System.out.println("Donner le mois");
@@ -31,13 +31,13 @@ public class TestDocuments {
         System.out.println("Donner annee");
         int annee = sc.nextInt();
         Revue revue = new Revue(mois, annee, NE, title);
-        revue.toString();
+        System.out.println(revue.toString());
         
         //Manuel 
         System.out.println("Donner Niveau");
         int niveau = sc.nextInt();
         Manuel manuel = new Manuel(name, nPages, niveau, NE, name);
-        manuel.toString();
+        System.out.println(manuel.toString());
 
 
 
