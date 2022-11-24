@@ -323,6 +323,27 @@ public class main {
              c1.setFraisInscription(sc.nextFloat());
              c1.setAnimateurs(listeAnimateur);
 
+             for(int i=0;i<listEleve.size();i++){
+                if(listEleve.get(i).getNiveauScolaire()!=c1.getNom()){
+                    classlisteeleve.add(listEleve.get(i));
+                    c1.setEleve(classlisteeleve);
+                    System.out.println("added");
+                }
+                listeClasse.add(c1);
+                break;
+             }
+
+            case 8:
+            System.out.println(listClasse);
+            break;
+
+            case 9:
+
+            for(int i=0;i<listeClasse.size();i++){
+                System.out.println(listeClasse.get(i).frais());
+            }
+            break;
+
 
 
 
