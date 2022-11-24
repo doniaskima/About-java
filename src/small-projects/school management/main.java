@@ -124,7 +124,7 @@ public class main {
                         }
                      }
 
-                    System.out.println("ajouter le gouvrnrzt de eleve string");
+                    System.out.println("ajouter le gouvrnrat de eleve string");
                     ad.setGouvernorat(sc.next());
                     e.setAdresse(ad);
 
@@ -308,6 +308,20 @@ public class main {
                 System.out.println(listEleve);
 
              break;
+            case 6 :
+             System.out.println(listeAnmateur);
+             break;
+
+            case 7:
+             System.out.println(listeAnmateur);
+             Classe c1=new Classe();
+             System.out.println("donner l'id de classe");
+             c1.setId(sc.nextInt());
+             System.out.println("donner le nom de classe");
+             c1.setNom(sc.next());
+             System.out.println("donner le frais d'inscription de classe");
+             c1.setFraisInscription(sc.nextFloat());
+             c1.setAnimateurs(listeAnimateur);
 
 
 
