@@ -440,6 +440,19 @@ public class main {
            Activiteliste.add(act);
       
          break;
+
+
+
+         case 13:
+         System.out.println("Exited..");
+         isRunning=false;
+         break;
+
+
+         default:
+         System.out.println("Bye Bye !");
+         break;
         }
     }
+    System.out.println("-----------------------------------------------------------------");
 }
