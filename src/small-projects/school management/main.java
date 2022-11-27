@@ -346,6 +346,31 @@ public class main {
 
 
 
+            case 10 :
+
+            ArrayList<Eleve> listEleve = new ArrayList<Eleve>();
+            
+    				System.out.println("donner l'id de la class que tu veux lq modifie");
+                    Classe classup=new Classe();
+                    int cup=sc.nextInt();
+                    classup.setId(cup); 
+                    System.out.println("donner le  nouveau nom la class que tu veux lq modifie");
+                    classup.setNom(sc.next());
+                    System.out.println("donner le  Frais Inscription la class que tu veux lmodifie");
+                    classup.setFraisInscription(sc.nextFloat());
+                    nvListElev=  classup.findlisteEleve(listeClasse,cup);
+                    classup.setEleve(nvListElev);
+                    classup.setAnimateurs(listeAnimateur);
+                    classup.update(listeClasse, classup);
+
+                    break;
+
+
+
+
+
+
+
 
 
                     
