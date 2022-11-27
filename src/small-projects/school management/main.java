@@ -371,22 +371,75 @@ public class main {
     				
     				break;
 
+            case 12 :
+             Activite act= new Activite();
+
+             Boolean b8=true;
+
+             while(b8){
+                try{
+                    System.out.println(" donner le code de la Activite");
+                    int codeA=Integer.parseInt(sc.nextLine());
+                    act.setCode(codeA);
+
+                }catch(Exception err){
+                    if (b8) {
+                        System.out.println("le code de la Activite doit etre entier");
+
+                    }
+                }
+             
+            
+            }
 
 
+            Boolean b9=true;
+             System.out.println("donner le animateur de 0 a 3");
+             while (b9 ) {
+                try {
+                    System.out.println("donner le animateur");
+                    int anumteunum=Integer.parseInt(sc.nextLine());
+                    if(anumteunum == 0) {
+                        act.setAnimateur(animateur1);
+                        
+                        break;
+                        
+                    }else if(anumteunum ==1) {
+                        act.setAnimateur(animateur2);
+                        break;
+
+                    }else if(anumteunum ==2) {
+                        act.setAnimateur(animateur3);
+                        break;
+
+                              
+                    }else if (anumteunum==3) {
+                        act.setAnimateur(animateur4);
+                        break;
 
 
-
-
-
-
+                       
+                   }
                     
-                             
 
+                } catch (Exception err) {
+                    if (b9) {
+                        System.out.println("le code de la Activite doit etre entier");
 
-
-                     
+                    }
+                }
+            
 
             }
+
+            System.out.println("donner le adesignation");
+            act.setDesignation(sc.next());
+            System.out.println("donner le  Frais Inscription de l'activite");
+            act.setFraisInscription(sc.nextFloat());
+
+           Activiteliste.add(act);
+      
+         break;
         }
     }
 }
