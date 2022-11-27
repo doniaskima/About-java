@@ -293,11 +293,11 @@ public class main {
 
                     break;
                 case 6:
-                    System.out.println(listeAnmateur);
+                    System.out.println(listeAnimateur);
                     break;
 
                 case 7:
-                    System.out.println(listeAnmateur);
+                    System.out.println(listeAnimateur);
                     Classe c1 = new Classe();
                     System.out.println("donner l'id de classe");
                     c1.setId(sc.nextInt());
@@ -318,7 +318,7 @@ public class main {
                     }
 
                 case 8:
-                    System.out.println(listClasse);
+                    System.out.println(listeClasse);
                     break;
 
                 case 9:
@@ -330,7 +330,7 @@ public class main {
 
                 case 10:
 
-                    ArrayList<Eleve> listEleve = new ArrayList<Eleve>();
+                    ArrayList<Eleve> listeEleve = new ArrayList<Eleve>();
 
                     System.out.println("donner l'id de la class que tu veux lq modifie");
                     Classe classup = new Classe();
