@@ -12,7 +12,13 @@ public class Testertout {
 		I3.g3();
 	}
 	static void test4(Groupe cg){
-		cg.f1();cg.f2();cg.f3();cg.g1();cg.g2();cg.g3();cg.w4();
+        cg.f1();
+        cg.f2();
+        cg.f3();
+        cg.g1();
+        cg.g2();
+        cg.g3();
+        cg.w4();
 	}
 
 }
