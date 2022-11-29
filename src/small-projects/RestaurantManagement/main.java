@@ -12,6 +12,8 @@ public class main {
 
         Customer.acceptFood();
 
+        Counter.payMessage();
+
       
     }
 }
