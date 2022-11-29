@@ -64,5 +64,17 @@ public class Restaurant {
     }
 
 
+    static void displayOptions() {
+        System.out.println("*******************");
+        System.out.println("Press 1 fror Pizza");
+        System.out.println("Press 2 for Sandwich");
+        System.out.println("Press 3 for Burger");
+    }
+    
+    static void displayBye() {
+        System.out.println("Thank you for visiting")
+    }
+
+
 
 }
