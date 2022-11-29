@@ -13,6 +13,10 @@ public class main {
         Customer.acceptFood();
 
         Counter.payMessage();
+        
+        Counter.calculateTotalAmount();
+		
+		Restaurant.displayBye();
 
       
     }
