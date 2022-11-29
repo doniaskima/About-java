@@ -9,5 +9,9 @@ public class main {
 		Restaurant.displayOptions();
 
         Waiter.getOrder();
+
+        Customer.acceptFood();
+
+      
     }
 }
