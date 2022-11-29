@@ -34,6 +34,11 @@ public class Restaurant {
         items.add(Burger);
     }
 
+    public static void customerGuide() {
+        Scanner scanner = new Scanner(System.in);
+        Customer customer1= new Customer();
+    }
+
 
 
 }
