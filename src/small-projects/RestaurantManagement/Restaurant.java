@@ -36,7 +36,15 @@ public class Restaurant {
 
     public static void customerGuide() {
         Scanner scanner = new Scanner(System.in);
-        Customer customer1= new Customer();
+        Customer customer1 = new Customer();
+        int tableNumber= scanner.nextInt();
+        while (tableNumber > 20) {
+            System.out.println("We only have 20 tables please enter table number again.");
+            tableNumber = scanner.nextInt();
+        }
+
+        custome1.setTableNumber(tableNumber);
+        System.out.println("Please be sitted in table number"+ customer1.getTableNumber());
     }
 
 
