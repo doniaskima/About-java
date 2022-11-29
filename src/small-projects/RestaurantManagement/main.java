@@ -7,5 +7,7 @@ public class main {
 		Restaurant.displayMenu();
 		
 		Restaurant.displayOptions();
+
+        Waiter.getOrder();
     }
 }
