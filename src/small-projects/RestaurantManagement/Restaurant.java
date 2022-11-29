@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+import java.util.Iterator;
 public class Restaurant {
 
     static List<Food> items = new ArrayList<Food>();
@@ -37,14 +37,30 @@ public class Restaurant {
     public static void customerGuide() {
         Scanner scanner = new Scanner(System.in);
         Customer customer1 = new Customer();
-        int tableNumber= scanner.nextInt();
+        int tableNumber = scanner.nextInt();
         while (tableNumber > 20) {
             System.out.println("We only have 20 tables please enter table number again.");
             tableNumber = scanner.nextInt();
         }
 
         custome1.setTableNumber(tableNumber);
-        System.out.println("Please be sitted in table number"+ customer1.getTableNumber());
+        System.out.println("Please be sitted in table number" + customer1.getTableNumber());
+    }
+
+    public static void displayMenu() {
+        System.out.println();
+        System.out.println("Here is our menu :");
+        Iterator<Food> itr = items.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+        
+        try{
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
