@@ -9,12 +9,12 @@ public class Restaurant {
     public static void displayWelcomeMessage() {
         System.out.println("---Welcome to our  restaurant :)");
         try {
-            Thread.sleep(1000)
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
              e.printStackTrace(); //gerer les exeptions et les erreurs .
         }
 
-        System.out.println("Please choose your table and enter table number")
+        System.out.println("Please choose your table and enter table number");
     }
 
 
@@ -28,7 +28,7 @@ public class Restaurant {
         items.add(pizza);
         Food sandwich = new Food();
         sandwich.setFoodDetail("Sandwich", 20);
-        items.add(sandwich)
+        items.add(sandwich);
         Food Burger = new Food();
         Burger.setFoodDetail("Burger", 50);
         items.add(Burger);
@@ -43,7 +43,7 @@ public class Restaurant {
             tableNumber = scanner.nextInt();
         }
 
-        custome1.setTableNumber(tableNumber);
+        customer1.setTableNumber(tableNumber);
         System.out.println("Please be sitted in table number" + customer1.getTableNumber());
     }
 
@@ -72,7 +72,7 @@ public class Restaurant {
     }
     
     static void displayBye() {
-        System.out.println("Thank you for visiting")
+        System.out.println("Thank you for visiting");
     }
 
 

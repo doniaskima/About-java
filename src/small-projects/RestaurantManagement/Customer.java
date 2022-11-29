@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class Customer {
     private int tableNumber;
 
-    public int getNumber() {
-        return tableNumber;
-    }
+ 
+	public int getTableNumber() {
+		return tableNumber;
+	}
 
     public void setTableNumber(int tableNumber) {
         this.tableNumber = tableNumber;
@@ -15,7 +16,7 @@ public class Customer {
     public static void acceptFood() {
         Scanner scanner = new Scanner(System.in);
         String accept = scanner.nextLine();
-        while (!accept.equalsIgnoreCase(a)) {
+        while (!accept.equalsIgnoreCase("a")) {
             System.out.println("Please enter A to accept your food");
             accept = scanner.nextLine();
         }
