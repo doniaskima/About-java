@@ -26,7 +26,6 @@ class Lapin {
     }
 }
 
-
 public class Animals {
     public static void main(String[] args) {
         Criant[] tab = new Criant[4];
@@ -36,7 +35,6 @@ public class Animals {
         tab[3] = new Chien();
         for (int i = 0; i < 4; i++) {
             tab[i].crier();
-            
         }
     }
 }
