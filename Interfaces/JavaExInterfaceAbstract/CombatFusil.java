@@ -1,5 +1,3 @@
-
-
 public class CombatFusil implements EspritCombatif {
     @Override
     public void Combatt() {

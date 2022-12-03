@@ -1,0 +1,64 @@
+Abstraction in java is a process of hiding the implementation details and showing only functionality to the user .
+
+Another way , it shows essential things to the user and hides the internal detail , for exemple, the
+sending SMS where you type the text and send the message .
+you don't know the internal processing about the message delivery .
+
+
+Abstraction lets you focus onthe object does not instead of how it does it .
+
+There is 2 ways to acheive abstracction in java .
+1-Abstract class(0 to 100%) 
+2-Interface (100%)
+
+
+//lets' say What is abstract class
+
+abstract class A{}
+
+//Abtsract method 
+
+a method which is declared as abstract and does not have implemetation is known as an abstract method .
+
+abstract void printStatus(); //no method body and abstract
+
+
+//Exemple of Abstract class that has an abstract method 
+
+abstract class Bike{
+    abstract void run();
+}
+
+class Honda4 extends Bike{
+    void run(){
+        System.out.println("running safely");
+    }
+
+    public static void main(String args[]){
+        Bike obj = new Honda4();
+        obj.run();
+    }
+}
+
+
+//Undrestanding the real scenario of Abstract Class
+
+abstract class Shape{
+    abstract void draw();
+}
+
+class Rectangle extends Shape{
+    void draw(){System.out.println("drawing rectangle");}
+}
+
+class Circle1 extends Shape{
+    void draw(){System.out.println("drawing circle")}
+}
+
+
+class TestAbstraction1{
+    public static void main(String[] args){
+        Shape s =new Circle1();
+        s.draw();
+    }
+}

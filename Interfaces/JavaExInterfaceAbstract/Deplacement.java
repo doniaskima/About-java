@@ -1,4 +1,4 @@
 
-public class Deplacement {
+public interface Deplacement {
     public void Deplacer();    
 }

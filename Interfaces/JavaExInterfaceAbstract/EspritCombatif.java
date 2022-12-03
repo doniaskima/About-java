@@ -1,4 +1,4 @@
 
-public class EspritCombatif {
+public interface EspritCombatif {
     public void Combat();
 }
