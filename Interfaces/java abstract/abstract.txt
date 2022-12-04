@@ -22,7 +22,6 @@ a method which is declared as abstract and does not have implemetation is known 
 
 abstract void printStatus(); //no method body and abstract
 
-
 //Exemple of Abstract class that has an abstract method 
 
 abstract class Bike{
