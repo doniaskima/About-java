@@ -7,14 +7,16 @@ public class main {
 		Restaurant.displayMenu();
 		
 		Restaurant.displayOptions();
-
-        Waiter.getOrder();
-
-        Customer.acceptFood();
-
-        Counter.payMessage();
-        
-        Counter.calculateTotalAmount();
+		
+		Waiter.getOrder();
+		
+		Cook.getOrder();		
+		
+		Customer.acceptFood();
+		
+		Counter.payMessage();
+		
+		Counter.calculateTotalAmount();
 		
 		Restaurant.displayBye();
 

@@ -30,7 +30,7 @@ public class main {
         sdf.format(dateAnimateur1);
         
         
-        Animateur animateur1=new Animateur("imed", "ben ahemd", 584646446, null,   dateAnimateur1);
+        Animateur animateur1=new Animateur("DONIA", "SKIMA", 584646446, null,   dateAnimateur1);
         Animateur animateur2=new Animateur("skander", "ben moulehem", 58566446, null,   dateAnimateur1);
         Animateur animateur3=new Animateur("ibtissem", "ben yzahia",465646446, null,   dateAnimateur1);
         Animateur animateur4=new Animateur("wafa", "ben kamoun", 64464446, null,   dateAnimateur1);
@@ -43,10 +43,11 @@ public class main {
         
 
 
-        while(isRunning) {
-            System.out.println("/***********************************************Menu**********************************************/");
-            System.out.println("                      1: ajouter un eleve \n                      2:liste des eleve \n                       3:liste des parent \n                      4:delete eleve \n                       5:mettre ajour l'eleve \n                       6:liste damateur                      7:create class                      8:liste de class                        9:frais d inscription(client)             10:modification le nom de la class etfrais d inscription     11:list dactivite            12:ajouter activite              13:exit       ");
-            System.out.println("/***********************************************menu**********************************************/");
+       while (isRunning) {
+            System.out.println("__________________________________________");
+            System.out.println("OUR MENU\n");
+            System.out.println("1: ajouter un eleve \n2:liste des eleve \n3:liste des parent\n 4:delete eleve\n 5:mettre ajour l'eleve\n 6:liste d'amateur\n7:create class\n8:liste de class\n9:frais d inscription(client)\n10:modification le nom de la class etfrais d inscription\n11:list dactivite\n12:ajouter activite\n13:exit");
+            System.out.println("__________________________________________");
 
             
 	
@@ -91,14 +92,14 @@ public class main {
                     
                     Adresse ad=new 	Adresse();
 
-                    System.out.println("ajouter le nom de eleve");
+                    System.out.println("ajouter le Nom de eleve\t");
                     e.setNom(sc.next());
-                    System.out.println("ajouter le prenom de eleve");
+                    System.out.println("ajouter le Prenom de eleve\t");
                     e.setPrenom(sc.next());
                     Boolean b1=true;
                     while (b1) {
                         try {
-                            System.out.println("ajouter le Numero Telephone de eleve");
+                            System.out.println("ajouter le Numero Telephone de eleve\n");
                             e.setNumeroTelephone(Integer.parseInt(sc.nextLine()));
                             break;
                          
@@ -131,14 +132,14 @@ public class main {
                     Boolean b3=true;
                     while (b3) {
                         try {
-                        	System.out.println("ajouter le numeroRue de eleve int ");                       
+                        	System.out.println("Ajouter le numeroRue de eleve int ");                       
                         	 ad.setNumeroRue(Integer.parseInt(sc.nextLine()));
                             break;
                          
 
                         } catch (Exception err) {
                             if (b3) {
-                                System.out.println("numeroRue doit etre entier");
+                                System.out.println("NumeroRue doit etre entier");
 
                             }
                         }
@@ -155,7 +156,7 @@ public class main {
                     Boolean b4=true;
                     while (b4) {
                         try {
-                        	System.out.println("ajouter la codePostal de eleve int ");
+                        	System.out.println("Ajouter la codePostal de eleve int ");
                         	 ad.setCodePostal(Integer.parseInt(sc.nextLine()));
                             break;
                          
@@ -193,12 +194,12 @@ public class main {
 
                     
                     e.setDateNaissance(datecre);
-                    System.out.println("niveauScolaire  de "+e.nom+" string");
+                    System.out.println("NiveauScolaire  de "+e.nom+" string");
                     e.setNiveauScolaire(sc.next());
                     /*******pere*********/
-                    System.out.println("ajouter le nom de pere de "+e.nom);
+                    System.out.println("Ajouter le nom de pere de "+e.nom);
                     p.setNom(sc.next());
-                    System.out.println("ajouter le prenom de pere de "+e.nom);
+                    System.out.println("Ajouter le prenom de pere de "+e.nom);
                     p.setPrenom(sc.next());
                     
                     /************************ NumeroTelephone try catch****************************/
@@ -207,7 +208,7 @@ public class main {
                     Boolean b5=true;
                     while (b5) {
                         try {
-                            System.out.println("ajouter NumeroTelephone de  pere de "+e.nom);
+                            System.out.println("Ajouter NumeroTelephone de  pere de "+e.nom);
                             p.setNumeroTelephone(Integer.parseInt(sc.nextLine()));
                             break;
                          
@@ -277,7 +278,7 @@ public class main {
 
                         } catch (Exception err) {
                             if (b7) {
-                                System.out.println("NumeroTelephonel doit etre entier");
+                                System.out.println("NumeroTelephonel doit etre entier\t");
 
                             }
                         }
@@ -334,14 +335,14 @@ public class main {
 
                     break;
                 case 2:
-                    System.out.println("liste des eleve: \n "+ listEleve);
+                    System.out.println("Liste des eleves: \n "+ listEleve);
                     break;
                 case 3:
-                    System.out.println("liste des parents: \n"+listParent );
+                    System.out.println("Liste des parents: \n"+listParent );
 
                     break;
                 case 4:
-                	System.out.println("Saisie le id de eleve pour supprimer l'eleve: ");
+                	System.out.println("Saisie l'id d'leve pour supprimer l'eleve: ");
                     
                 	Eleve ed =new Eleve();
                 	ed.setId(sc.nextInt());
