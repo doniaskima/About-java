@@ -1,4 +1,3 @@
-
 public class Client extends Personne implements Homme{
     private int number;
 
@@ -6,4 +5,11 @@ public class Client extends Personne implements Homme{
         super(nom, prenom);
         this.number = number;
     }
+
+    public void identiter()
+	{
+		super.identiter();
+		System.out.println("number = " + number);
+	}
+
 }
