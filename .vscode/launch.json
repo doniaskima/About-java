@@ -1,0 +1,315 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Animal",
+            "request": "launch",
+            "mainClass": "Animal",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch DynamicArray",
+            "request": "launch",
+            "mainClass": "Array.DynamicArray",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Introduction",
+            "request": "launch",
+            "mainClass": "FileInputStream.Introduction",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Introduction(1)",
+            "request": "launch",
+            "mainClass": "FileOutputStream.Introduction",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "HashMaps.Main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Input",
+            "request": "launch",
+            "mainClass": "Inputs.Input",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Animals",
+            "request": "launch",
+            "mainClass": "Interfaces.Animals.Animals",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedLists.doubly_linked_list.MyLinkedList",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLinkedList(1)",
+            "request": "launch",
+            "mainClass": "LinkedLists.singly_linked_list.MyLinkedList",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Arrays.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(1)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.BssePower.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(2)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.LargestPrime.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(3)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Looops.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(4)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.MinMax.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(5)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.PrimeNumber.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(6)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.SmallLarge.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dog",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.DownCasting.Dog",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP0.Ex4",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch One",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP0.One",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex6",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP0.ex6",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX1",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.EX1",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX2",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.EX2",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX3",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.EX3",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX4",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.EX4",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch EX5",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.EX5",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch JHMS",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP1.JHMS",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestEtudiant",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.Etudiant.TestEtudiant",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.ex1.Test",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestPoint",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.ex2.TestPoint",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDessin",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.ex3.TestDessin",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRectangle",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.ex3.TestRectangle",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestVecteur",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP2.ex4.TestVecteur",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch UtiliseFinaly",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Tps.TP6.EX2.UtiliseFinaly",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(7)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.Trinagles.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch main(8)",
+            "request": "launch",
+            "mainClass": "ProblemSolving.digitNumber.main",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Salaires",
+            "request": "launch",
+            "mainClass": "Salaires",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyStack",
+            "request": "launch",
+            "mainClass": "Stacks.Array_stack.MyStack",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyStack(1)",
+            "request": "launch",
+            "mainClass": "Stacks.linked_list_stack.MyStack",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hasmap",
+            "request": "launch",
+            "mainClass": "String.GetOrdefault.Hasmap",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "String.LongestPalindrome.Solution",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution(1)",
+            "request": "launch",
+            "mainClass": "String.Problem1.Solution",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch isAnagram",
+            "request": "launch",
+            "mainClass": "String.anagram.isAnagram",
+            "projectName": "About-java_b66e9375"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test(1)",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "About-java_b66e9375"
+        }
+    ]
+}
