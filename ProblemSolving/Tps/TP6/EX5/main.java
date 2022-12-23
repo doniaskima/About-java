@@ -58,21 +58,17 @@ public void main{
 
 			public Note(String u, int v, int c) throws NumberOutOfRangeException {
 				this.unite = u;
-
 				if (v > 20 || v < 0) {
 					throw new NumberOutOfRangeException("number out of range");
 				} else {
 					this.valeur = v;
 				}
-
 				if (c < 1 || c > 4) {
 					throw new NumberOutOfRangeException("number out of range");
 				} else {
 					this.coef = c;
 				}
-
 			}
-
 		}
 
 		public static void main(String[] args) {

@@ -19,7 +19,6 @@ class Chien implements Criant {
         System.out.println("Wouf");
     }
 }
-
 class Lapin {
     public void foncerDuNez() {
         ;
