@@ -35,15 +35,12 @@ public class Medicament {
     }
 
     @Override
-
     public String toString() {
         return "Medicament [nom=" + nom + ", prix=" + prix + ", stock=" + stock + "]";
     }
-    
     public void augmenterStock(int m) {
         stock += m;
     }
-
     public void diminuerStock(int m) {
         stock-=m;
     }

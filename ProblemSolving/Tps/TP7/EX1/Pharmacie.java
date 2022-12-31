@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Pharmacie {
     private static Scanner sc = new Scanner();
     static int choix;
-
     static int menu() {
         choix = 0;
         System.out.println("1-Achat");
@@ -17,7 +16,6 @@ public class Pharmacie {
         }
         return choix;
     }
-    
     static void affichage(Client[] c, Medicament[] m) {
         System.out.println("Affichage des credits");
         for (int i = 0; i < c.length; i++) {
@@ -65,7 +63,7 @@ public class Pharmacie {
           System.out.println(s);
           double x = sc.nextDouble();
           return x;
-      }
+        }
 
       // lire un entier
 
@@ -73,9 +71,9 @@ public class Pharmacie {
           System.out.println(s);
           double x = sc.nextInt();
           return x;
-      }
+        }
       
-      static void achat(Client[] c, Medicament []m) {
+        static void achat(Client[] c, Medicament []m) {
           Client client = lireClient(c);
           Medicament medicament = lireMedicament(m);
           double paiement = lireDouble("Paiement : ");
@@ -85,6 +83,24 @@ public class Pharmacie {
               client.augCredit((medicament.getPrix() * quantite) - paiement);
           }else 
           System.out.println("solde medicament  insuffisant ")
-          
-      }
+        }
+        
+        public static void main(String[] args) {
+            Client[] c = new Client[2];
+            Medicament[] m = new Medicalament[2];
+            c[0] = new Client("jiji",0);
+		    c[1] = new Client("Marwa",0);
+	    	m[0] = new Medicament("Aspiron",20.400,5);
+            m[1] = new Medicament("Rhinoflex", 20.400, 5);
+
+            do{
+                choix = menu();
+                switch(choix){
+                   case 1 : achat(c,m); break;
+			       case 2 : System.out.println("f2"); break;
+		           case 3 : affichage(c,m); break;
+			       case 4 : System.out.println("Programme terminé"); break;
+                }
+            } while (choix < 4);
+        }
 }
