@@ -3,3 +3,4 @@ public class NumberOutOfRangeException extends Exception {
         super(s);
     }
 }
+

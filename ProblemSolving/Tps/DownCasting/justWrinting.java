@@ -1,8 +1,4 @@
-
-
 class Animal{}
-
-
 class Dog extends Animal {
     static void method(Animal a) {
         if(a instanceof Dog){
