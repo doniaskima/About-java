@@ -5,7 +5,7 @@ public class Pharmacie {
 	private static Scanner sc = new Scanner(System.in);
 	static int choix;
     static int menu()
-    {   choix =0;
+    {   choix =0;  
     	System.out.println("1 - Achat");
     	System.out.println("2 - Approvisionnement en médicaments");
     	System.out.println("3 - Etat des stocks et des crédits");
