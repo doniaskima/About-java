@@ -15,7 +15,6 @@ public class Application {
 		if(pers[j] instanceof Etudiant){
 		System.out.println("\t"+pers[j]);
 		}
-		}
+	    }
 	}
-
 }

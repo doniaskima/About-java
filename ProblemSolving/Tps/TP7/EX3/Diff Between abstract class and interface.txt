@@ -1,0 +1,20 @@
+Abstract class that is a class that is declared abstract 
+it may or may not include abstract methods 
+Abstract class cannot be instantiated , but the can be subclassed 
+
+
+An abstract method is a method that is declared without an implementation (without braces, and followed by a semicolon), like this:
+
+abstract void moveTo(double deltaX, double deltaY);
+
+abstract classes are similar to interfaces
+
+Differences between abstract classes and interfaces
+
+The main difference between an interface and an abstract class is that an interface cannot have state ,
+whereas the abstract class can have state with instance variables .
+
+Another key difference is that classes can implement more than one interface .
+but the can only abstract class .
+
+
