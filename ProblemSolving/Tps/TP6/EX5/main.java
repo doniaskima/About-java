@@ -10,7 +10,6 @@ public class main {
 			Someone.ajouter_note(N1);
 			System.out.println("moyenne = " + Someone.moyenne());
 
-			
 		} catch (NumberOutOfRangeException e) {
 			e.printStackTrace();
 		}
