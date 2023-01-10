@@ -1,4 +1,4 @@
-public class Capitale extends ville{
+public class Capitale extends ville {
     private String pays;
 
     public Capitale(String s, int x, String p) {

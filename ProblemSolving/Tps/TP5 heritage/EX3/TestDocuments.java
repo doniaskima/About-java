@@ -39,12 +39,5 @@ public class TestDocuments {
         Manuel manuel = new Manuel(name, nPages, niveau, NE, name);
         System.out.println(manuel.toString());
 
-
-
-
-
-
-
-    
     }
 }

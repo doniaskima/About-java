@@ -1,8 +1,8 @@
 public class Crayon {
     private double epaisseur, longueur;
 
-public Crayon(double a, double b)
-{
+
+public Crayon(double a, double b) {
     epaisseur = a;
     longueur = b;
 }
